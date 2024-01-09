@@ -25,7 +25,7 @@ function App() {
   return (
     <>
       <button onClick={getCatFact} disabled={isLoading}>Get cat fact</button>
-      {isLoading ? <p>Loding...</p> : <p>{catFact}</p>}
+      {isLoading ? <p>Loading...</p> : <p>{catFact}</p>}
     </>
   )
 }
